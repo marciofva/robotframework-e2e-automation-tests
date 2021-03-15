@@ -18,6 +18,10 @@ How to install Robot Framework on Mac OS:
 $ python3 --version
 ```
 
+```console
+$ pip3 --version
+```
+
 
 - Install Robot Framework
 
