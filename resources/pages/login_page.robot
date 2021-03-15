@@ -6,7 +6,7 @@ Documentation       Login Page Actions
 ${EMAIL_INPUT}              id=email
 ${PASSWORD_INPUT}           id=passwd
 ${LOGIN_BUTTON}             id=SubmitLogin
-${LOGIN_FLASH_ALERT}        css=.alert.alert-danger > ol > li
+${LOGIN_FLASH_ALERT}        css=.alert.alert-danger>ol>li
 
 
 *** Keywords ***
@@ -15,10 +15,10 @@ Open Login Page
 
 
 Login With
-    [Arguments]     ${email_arg}        ${passwod_arg}
+    [Arguments]     ${email_arg}        ${password_arg}
 
     Fill Text       ${EMAIL_INPUT}      ${email_arg}
-    Fill Text       ${PASSWORD_INPUT}   ${passwod_arg}
+    Fill Text       ${PASSWORD_INPUT}   ${password_arg}
 
     Click           ${LOGIN_BUTTON} 
 
