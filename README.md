@@ -9,12 +9,10 @@ E2E testing project with Robotframework
 How to install Robot Framework on Mac OS:
 
 
-- Install python 3
-
-Download python 3 [Click here](https://www.python.org/downloads/)
+- Install python 3 - Download python 3 [Click here](https://www.python.org/downloads/)
 
 
-To verify the successful installation of python 3, Run below command:
+- In order to verify the successful installation of python 3, Run below command:
 
 ```console
 $ python3 --version
@@ -40,7 +38,7 @@ $ pip3 install robotframework
 
 ### Variable Parameters
 
-- Choose browser such as chromium, firefox
+- Choose browser such as __chromium__, __firefox__
 ```
 -v BROWSER:chromium
 ```
