@@ -4,7 +4,7 @@ Documentation       Product Page Tests
 Resource            ../resources/base.robot
 
 Test Setup          Start Test
-Test Teardown       Take Screenshot
+Test Teardown       Close Browser
 
 
 *** Test Cases ***
