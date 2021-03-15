@@ -52,7 +52,7 @@ $ pip3 install robotframework
 -v HEADLESS:false
 ```
 
-- Choose environment such as qa, prod 
+- Choose environment such as __qa__, __prod__ (This is defined in _lib/environment.py_ file)
 ```
 -v ENV:qa
 ```
